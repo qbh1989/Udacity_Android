@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.administrator.happybirthday.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:text="纳米学位应用"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="50dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        >
+
+        <Button
+            android:id="@+id/btndianying"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#3385FF"
+            android:text="热门电影"
+            android:fontFamily=""
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:onClick="clickHandler"
+
+            />
+
+        <Button
+            android:id="@+id/btngupiao"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#3385FF"
+            android:text="股票雄鹰"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:onClick="clickHandler"
+            />
+
+        <Button
+            android:id="@+id/btnyueduqi"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#3385FF"
+            android:text="XYZ阅读器"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:onClick="clickHandler"
+            />
+
+        <Button
+            android:id="@+id/btnxinwen"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#3385FF"
+            android:text="最新闻"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:onClick="clickHandler"
+            />
+
+        <Button
+            android:id="@+id/btnbiye"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:background="#3385FF"
+            android:text="毕业设计"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:onClick="clickHandler"
+            />
+
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
